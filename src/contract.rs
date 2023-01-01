@@ -26,3 +26,5 @@ pub fn instantiate(deps: DepsMut, _info: MessageInfo, msg: InstantiateMsg) -> St
     STATE.save(deps.storage, &state)?;
     Ok(Response::default())
 }
+
+// state for 
